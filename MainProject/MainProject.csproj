@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <Platforms>Any CPU</Platforms>
+    <Configuration>Release</Configuration>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,7 +15,7 @@
   </ItemGroup>
 
   <!-- Clean up DocFX output -->
-  <Target Name="CleanDocFX" AfterTargets="DocClean" Condition="$(Configuration.Contains('All'))">
+  <Target Name="CleanDocFX" AfterTargets="DocClean">
     <Message Text="Cleaning up DocFX generated documentation." Importance="high" />
     <RemoveDir Directories="$(ProjectDir)docs\_site\" />
     <ItemGroup Label="DocFX Artifacts to Clean">

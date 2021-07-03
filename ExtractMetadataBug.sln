@@ -15,16 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4A4DFC56-C6E8-44EE-AA84-279CAE897A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A4DFC56-C6E8-44EE-AA84-279CAE897A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A4DFC56-C6E8-44EE-AA84-279CAE897A22}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A4DFC56-C6E8-44EE-AA84-279CAE897A22}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{56E453FC-E38F-4EF0-B4E3-F1523AAB576F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56E453FC-E38F-4EF0-B4E3-F1523AAB576F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56E453FC-E38F-4EF0-B4E3-F1523AAB576F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{56E453FC-E38F-4EF0-B4E3-F1523AAB576F}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
